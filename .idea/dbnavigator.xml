@@ -25,13 +25,13 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="2dfaaed7-2592-4608-9c71-1ec7636dc6ff">
-        <schema name="main" object-types="table, view, column, constraint, dataset trigger, index" />
+        <schema name="main" object-types="view, dataset trigger, column, index, table, constraint" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="2dfaaed7-2592-4608-9c71-1ec7636dc6ff">
-      <console name="SQLite_djangogirls" type="STANDARD" schema="main" session="Main"><![CDATA[select * from blog_post;]]></console>
+      <console name="SQLite_djangogirls" type="STANDARD" schema="main" session="Main">select * from blog_post;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
